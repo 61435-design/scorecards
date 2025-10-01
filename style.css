@@ -1,0 +1,45 @@
+/* style.css */
+
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f4f4f9;
+    margin: 20px;
+}
+
+h1 {
+    text-align: center;
+    color: #333;
+}
+
+table {
+    width: 80%;
+    margin: auto;
+    border-collapse: collapse;
+    box-shadow: 0 0 10px rgba(0,0,0,0.1);
+}
+
+th, td {
+    padding: 12px;
+    text-align: center;
+    border: 1px solid #ccc;
+}
+
+th {
+    background-color: #4CAF50;
+    color: white;
+}
+
+tr:nth-child(even) {
+    background-color: #f2f2f2;
+}
+
+/* Pseudo-class example: hover effect */
+tr:hover {
+    background-color: #ddd;
+}
+
+caption {
+    caption-side: top;
+    font-size: 1.5em;
+    margin-bottom: 10px;
+}
